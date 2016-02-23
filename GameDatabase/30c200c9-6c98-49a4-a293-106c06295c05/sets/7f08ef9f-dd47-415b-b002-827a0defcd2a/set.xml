@@ -3,7 +3,7 @@
 <set name="02-Westeros"
      id="7f08ef9f-dd47-415b-b002-827a0defcd2a"
      gameId="30c200c9-6c98-49a4-a293-106c06295c05"
-     gameVersion="1.1.1.1"
+     gameVersion="1.1.1.2"
      version="1.2">
 
     <cards>
@@ -532,5 +532,260 @@
             <property name="CardNumber"                 value="40"/>
             <property name="Illustrator"                value="JB Casacop"/>
         </card>
+			<card id="d340a77b-1d00-43de-bd9d-da56a16bfc08" name="Ser Rodrick Cassel">
+		            <property name="Faction"                    value="Stark."/>
+		            <property name="Type"                       value="Character"/>
+		            <property name="Traits"                     value="Knight."/>
+		            <property name="Text"                       value="No attachments except Weapon.&#13;&#10; While Ser Rodrick Cassel is attacking in a [MIL] challenge, each unique [Stark] character you control gains insight."/>
+					<property name="Unique"                     value="Yes"/>
+		            <property name="Loyal"                      value="Yes"/>
+		            <property name="Cost"                       value="6"/>
+		            <property name="Strength"                   value="4"/>
+		            <property name="Military"                   value="Yes"/>
+		            <property name="Intrigue"                   value="No"/>
+		            <property name="Power"                      value="Yes"/>           
+		            <property name="CardNumber"                 value="41"/>
+		            <property name="Illustrator"                value="Sara Winters"/>
+			</card>
+		        <card id="d468a628-8826-420a-9e7f-c566f373f1e4" name="Wolf Dreams">
+		            <property name="Faction"                    value="Stark."/>
+		            <property name="Type"                       value="Event"/>
+			    <property name="Traits"                     value="Dream."/>
+			    <property name="Text"                       value="Action: Kneel your faction card to search your deck for a Direwolf character, reveal it and add it to your hand. Shuffle your deck."/>
+		            <property name="Unique"                     value="No"/>
+			    <property name="Loyal"                      value="No"/>
+		            <property name="Cost"                       value="0"/>
+		            <property name="CardNumber"                 value="42"/>
+		            <property name="Illustrator"                value="Jeremy Wilson"/>
+		        </card>
+			<card id="5c6064f6-f1ab-481d-86b5-7aade25d4d30" name="Ser Hobber Redwyne">
+		            <property name="Faction"                    value="Tyrell."/>
+		            <property name="Type"                       value="Character"/>
+		            <property name="Traits"                     value="House Redwyne. Knight."/>
+		            <property name="Text"                       value="Reaction: After you marshal Ser Hobber Redwyne, search your deck for a Lady character, reveal it, and add it to your hand. Shuffle your deck."/>
+					<property name="Unique"                     value="Yes"/>
+		            <property name="Loyal"                      value="No"/>
+		            <property name="Cost"                       value="5"/>
+		            <property name="Strength"                   value="4"/>
+		            <property name="Military"                   value="Yes"/>
+		            <property name="Intrigue"                   value="No"/>
+		            <property name="Power"                      value="Yes"/>           
+		            <property name="CardNumber"                 value="43"/>
+		            <property name="Illustrator"                value="Joshua Cairós"/>
+			</card>	
+			<card id="368d1312-84a8-497c-97fb-2968e5fd68b8" name="Mare in Heat">
+		            <property name="Faction"                    value="Tyrell."/>
+		            <property name="Type"                       value="Attachment"/>
+		            <property name="Traits"                     value="Warhorse."/>
+		            <property name="Text"                       value="Knight character only. &#13;&#10; While attached character is attacking or defending alone, Mare in Heat gains: 'Action: Kneel Mare in Heat to choose a participating character with STR higher than that of the attached character, and remove that character from the challenge.'"/>
+		         	<property name="Unique"                     value="No"/>
+				<property name="Loyal"                      value="No"/>
+				<property name="Cost"                       value="2"/>
+		            <property name="CardNumber"                 value="44"/>
+		            <property name="Illustrator"                value="Smirtouille"/>
+			</card>	
+			<card id="0d058d40-a2f1-4d07-8a73-d111cdef31cc" name="Ser Alliser Thorne">
+		            <property name="Faction"                    value="Night's Watch."/>
+		            <property name="Type"                       value="Character"/>
+		            <property name="Traits"                     value="Knight. Ranger."/>
+		            <property name="Text"                       value="While you are the defending player, each [Night's Watch] character you control gain a [MIL] icon. &#13;&#10;  Reaction: After a [MIL] challenge is initiated against you, kneel your faction card and pay 4 gold to put Ser Alliser Thorne into play from your hand." />
+			    <property name="Unique"                     value="Yes"/>
+		            <property name="Loyal"                      value="No"/>
+		            <property name="Cost"                       value="6"/>
+		            <property name="Strength"                   value="4"/>
+		            <property name="Military"                   value="Yes"/>
+		            <property name="Intrigue"                   value="No"/>
+		            <property name="Power"                      value="Yes"/>           
+		            <property name="CardNumber"                 value="45"/>
+		            <property name="Illustrator"                value="JB Casacop"/>
+			</card>	
+			<card id="d06a4960-28f5-4e24-9abe-997b7be8c578" name="Practice Blade">
+		            <property name="Faction"                    value="Night's Watch."/>
+		            <property name="Type"                       value="Attachment"/>
+		            <property name="Traits"                     value="Weapon."/>
+		            <property name="Text"                       value="[Night's Watch] character only. Ambush (2). &#13;&#10; Attached character gets +1 STR and gains a [MIL] icon."/>
+		         	<property name="Unique"                     value="No"/>
+				<property name="Loyal"                      value="No"/>
+				<property name="Cost"                       value="1"/>
+		            <property name="CardNumber"                 value="46"/>
+		            <property name="Illustrator"                value="Aleksander Karcz"/>
+			</card>	
+			<card id="ca6c526b-f481-4619-be10-dee41a870690" name="Moon Boy">
+		            <property name="Faction"                    value="Baratheon."/>
+		            <property name="Type"                       value="Character"/>
+		            <property name="Traits"                     value="Fool."/>
+	           	    <property name="Keywords"                   value="Insight."/>
+		            <property name="Text"                       value="Forced Reaction: After you lose a challenge in which Moon Boy is participating, discard 1 card at random from your hand. "/>
+			    <property name="Unique"                     value="Yes"/>
+		            <property name="Loyal"                      value="Yes"/>
+		            <property name="Cost"                       value="2"/>
+		            <property name="Strength"                   value="2"/>
+		            <property name="Military"                   value="No"/>
+		            <property name="Intrigue"                   value="No"/>
+		            <property name="Power"                      value="Yes"/>           
+		            <property name="CardNumber"                 value="47"/>
+		            <property name="Illustrator"                value="Nicholas Gregory"/>
+			</card>		
+	        <card id="bf0f372b-edd1-408b-93b6-34aed0158c7b" name="The King's Peace" size="HorizontalCards">
+	            <property name="Faction"                    value="Baratheon."/>
+	            <property name="Type"                       value="Plot"/>
+	            <property name="Traits"                     value="Edict. Scheme."/>
+	            <property name="Text"                       value="Reaction: After a [MIL] or [POW] challenge is initiated against you, the attacking player may either: kneel his or her faction card, or move 1 power from that faction card to yours. If that player does not, the challenge immediately ends with no winner or loser."/>
+	            <property name="Loyal"                      value="Yes"/>
+	            <property name="PlotGoldIncome"             value="4"/>
+	            <property name="PlotInitiative"             value="0"/>
+	            <property name="PlotClaim"                  value="1"/>
+	            <property name="PlotReserve"                value="5"/>
+				<property name="DeckLimit"                  value="1"/>
+	            <property name="CardNumber"                 value="48"/>
+	            <property name="Illustrator"                value="Aleksander Karcz"/>
+	        </card>	
+			<card id="03d3b8a8-a6e2-44f7-8064-813c04e69bd2" name="Ser Gregor Clegane">
+		            <property name="Faction"                    value="Lannister."/>
+		            <property name="Type"                       value="Character"/>
+		            <property name="Traits"                     value="House Clegane. Knight. Lord."/>
+			    <property name="Keywords"                   value="Pillage. Renown."/>
+		            <property name="Text"                       value="Reaction: After Ser Gregor Clegane discards a character using pillage, place that card in its owner's dead pile. Then, you may choose and kill a character with printed cost equal to that card's printed cost." />
+			    <property name="Unique"                     value="Yes"/>
+		            <property name="Loyal"                      value="No"/>
+		            <property name="Cost"                       value="7"/>
+		            <property name="Strength"                   value="10"/>
+		            <property name="Military"                   value="Yes"/>
+		            <property name="Intrigue"                   value="No"/>
+		            <property name="Power"                      value="No"/>           
+		            <property name="CardNumber"                 value="49"/>
+		            <property name="Illustrator"                value="John Stanke"/>
+			</card>	
+		        <card id="8624582e-705f-4597-8c96-6bfb4ae79791" name="I Never Bet Against My Family">
+		            <property name="Faction"                    value="Lannister."/>
+		            <property name="Type"                       value="Event"/>
+			    <property name="Text"                       value="Challenges Action: Kneel your faction card to reveal the bottom 5 cards of your deck. You may put 1 unique [Lannister] character revealed by this effect into play; return the other cards to the bottom of your deck in any order. At the end of the phase, if that card is still in play, discard it from play (cannot be saved)."/>
+		            <property name="Unique"                     value="No"/>
+			    <property name="Loyal"                      value="Yes"/>
+		            <property name="Cost"                       value="0"/>
+		            <property name="CardNumber"                 value="50"/>
+		            <property name="Illustrator"                value="Jon Bosco"/>
+		        </card>	
+			<card id="f138d215-1340-4ede-9657-66fcab87f1ad" name="Newly Made Lord">
+		            <property name="Faction"                    value="Greyjoy."/>
+		            <property name="Type"                       value="Character"/>
+		            <property name="Traits"                     value="Lord."/>
+		            <property name="Text"                       value="Reaction: After you marshal Newly Made Lord, choose a non-limited location with printed cost 3 or lower, and discard it from play." />
+		            		    <property name="Unique"                     value="No"/>
+		            <property name="Loyal"                      value="No"/>
+		            <property name="Cost"                       value="4"/>
+		            <property name="Strength"                   value="4"/>
+		            <property name="Military"                   value="No"/>
+		            <property name="Intrigue"                   value="No"/>
+		            <property name="Power"                      value="Yes"/>           
+		            <property name="CardNumber"                 value="51"/>
+		            <property name="Illustrator"                value="Leo"/>
+			</card>	
+			<card id="a105359b-5fb9-4459-bb6e-03768f903443" name="Fishing Net">
+		            <property name="Faction"                    value="Greyjoy."/>
+		            <property name="Type"                       value="Attachment"/>
+		            <property name="Traits"                     value="Condition. Item. Weapon."/>
+		            <property name="Text"                       value="Opponents character only. &#13;&#10; Attached character cannot be declared as a defender."/>
+		         	<property name="Unique"                     value="No"/>
+				<property name="Loyal"                      value="No"/>
+				<property name="Cost"                       value="1"/>
+		            <property name="CardNumber"                 value="52"/>
+		            <property name="Illustrator"                value=""/>
+			</card>	
+			<card id="95a16217-6404-42d4-a49b-4b782589cc93" name="Crone of Vaes Dothrak">
+		            <property name="Faction"                    value="Targaryen."/>
+		            <property name="Type"                       value="Character"/>
+		            <property name="Traits"                     value="Dothraki."/>
+		            <property name="Text"                       value="Reaction: After a characetr is discard from an opponent's hand or deck, kneel a Dothraki character to place that card in itss owner's dead pile." />
+		            		    <property name="Unique"                     value="No"/>
+		            <property name="Loyal"                      value="No"/>
+		            <property name="Cost"                       value="2"/>
+		            <property name="Strength"                   value="2"/>
+		            <property name="Military"                   value="No"/>
+		            <property name="Intrigue"                   value="Yes"/>
+		            <property name="Power"                      value="No"/>           
+		            <property name="CardNumber"                 value="53"/>
+		            <property name="Illustrator"                value=""/>
+			</card>	
+			<card id="e58c470f-ff1f-435f-a6b7-da8abb3d9484" name="The Silver Steed">
+		            <property name="Faction"                    value="Targaryen."/>
+		            <property name="Type"                       value="Attachment"/>
+		            <property name="Traits"                     value="Warhorse."/>
+		            <property name="Text"                       value="Dothraki character or Daenerys Targaryen only. &#13;&#10; While attached character is participating in a [POW] challenge, it gains renown.  &#13;&#10; Reaction: After attached character gains power using renown, sacrifice The Silver Steed. You may initiate an additional [POW] challenge this phase."/>
+		         	<property name="Unique"                     value="Yes"/>
+				<property name="Loyal"                      value="No"/>
+				<property name="Cost"                       value="1"/>
+		            <property name="CardNumber"                 value="54"/>
+		            <property name="Illustrator"                value="Smirtouille"/>
+			</card>	
+			<card id="986cd4c7-e5ec-4ab6-a0b1-cc95bdb5d603" name="Attainted">
+		            <property name="Faction"                    value="Martell."/>
+		            <property name="Type"                       value="Attachment"/>
+		            <property name="Traits"                     value="Condition."/>
+		            <property name="Text"                       value="Opponent's character only. &#13;&#10;  Attached character loses an [INT] icon."/>
+		         	<property name="Unique"                     value="No"/>
+				<property name="Loyal"                      value="No"/>
+				<property name="Cost"                       value="1"/>
+		            <property name="CardNumber"                 value="55"/>
+		            <property name="Illustrator"                value="Tomasz Jedruszek"/>
+			</card>	
+		    <card id="737aa147-b264-49f2-9c6c-2a69939f8b26" name="The Boneway">
+		            <property name="Faction"                    value="Martell."/>
+		            <property name="Type"                       value="Location"/>
+		            <property name="Traits"                     value="Dorne."/>
+		            <property name="Text"                       value="Reaction: After you lose a challenge, place 1 vengeance token on The Boneway. &#13;&#10; Dominance Action: Kneel The Boneway and discard 6 vengeance tokens from it to gain 3 power for your faction. "/>
+		            <property name="Unique"                     value="Yes"/>
+		            <property name="Loyal"                      value="Yes"/>
+		            <property name="Cost"                       value="2"/>
+		            <property name="CardNumber"                 value="56"/>
+		            <property name="Illustrator"                value="Tomasz Jedruszek"/>
+		    </card>	
+			<card id="0d558b71-5360-43b5-99ee-8803c24ca752" name="Hedge Knight">
+		            <property name="Faction"                    value="Neutral."/>
+		            <property name="Type"                       value="Character"/>
+		            <property name="Traits"                     value="Knight."/>
+		            <property name="Text"                       value="While you control another Knight character, Hedge Knight gets +1 STR and gains a [POW] icon." />
+		            		    <property name="Unique"                     value="No"/>
+		            <property name="Loyal"                      value="No"/>
+		            <property name="Cost"                       value="2"/>
+		            <property name="Strength"                   value="2"/>
+		            <property name="Military"                   value="Yes"/>
+		            <property name="Intrigue"                   value="No"/>
+		            <property name="Power"                      value="No"/>           
+		            <property name="CardNumber"                 value="57"/>
+		            <property name="Illustrator"                value="Tomasz Jedruszek"/>
+			</card>	
+			<card id="36f646f1-c2c1-406a-bf7f-3f254c494c2f" name="Knighted">
+		            <property name="Faction"                    value="Neutral."/>
+		            <property name="Type"                       value="Attachment"/>
+		            <property name="Traits"                     value="Title."/>
+		            <property name="Text"                       value="Attached character gets +1 STR and gains the Knight trait."/>
+		         	<property name="Unique"                     value="No"/>
+				<property name="Loyal"                      value="No"/>
+				<property name="Cost"                       value="1"/>
+		            <property name="CardNumber"                 value="58"/>
+		            <property name="Illustrator"                value="Jan-Wah Li"/>
+			</card>		
+	        <card id="9a0c0ca7-97cf-4754-8183-b57b3d9550e9" name="A Tourney for the King" size="HorizontalCards">
+	            <property name="Faction"                    value="Neutral."/>
+	            <property name="Type"                       value="Plot"/>
+	            <property name="Traits"                     value="Summer."/>
+	            <property name="Text"                       value="Each Knight character you control gains renown and 'immune to opponents events'"/>
+	            <property name="Loyal"                      value="No"/>
+	            <property name="PlotGoldIncome"             value="3"/>
+	            <property name="PlotInitiative"             value="8"/>
+	            <property name="PlotClaim"                  value="1"/>
+	            <property name="PlotReserve"                value="6"/>
+	            <property name="CardNumber"                 value="59"/>
+	            <property name="Illustrator"                value=""/>
+	        </card>	
+		 <card id="1ab2a7b6-d6e0-4aa0-9777-e78cfcd092ce" name="The Lord of the Crossing">
+		            <property name="Faction"                    value="Neutral."/>
+		            <property name="Type"                       value="Agenda"/>
+			    <property name="Traits"                     value="House Frey."/>
+		            <property name="Text"                       value="During the first challenge you initiate each phase, each of your participating characters gets -1 STR. &#13;&#10; During the third challenge you initiate each phase, each of your participating characters gets +2 STR. If you win this challenge, gain 1 power for your faction."/>
+		            <property name="CardNumber"                 value="60"/>
+		            <property name="Illustrator"                value=""/>
+		        </card>
         </cards>
 </set>
